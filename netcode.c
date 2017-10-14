@@ -1604,12 +1604,6 @@ void * netcode_read_packet( uint8_t * buffer,
         }
 
         uint64_t packet_connect_token_expire_timestamp = netcode_read_uint64( &buffer );
-        if ( packet_connect_token_expire_timestamp <= current_timestamp )
-        {
-            netcode_printf( NETCODE_LOG_LEVEL_DEBUG, "ignored connection request packet. connect token expired\n" );
-            return NULL;
-        }
-
         uint64_t packet_connect_token_sequence = netcode_read_uint64( &buffer );
 
         netcode_assert( buffer - start == 1 + NETCODE_VERSION_INFO_BYTES + 8 + 8 + 8 );
