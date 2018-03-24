@@ -55,13 +55,13 @@ These people are awesome:
 * [June Rhodes](https://github.com/hach-que) - C# bindings, browser support, UE4 integration.
 * [Alan Stagner](https://github.com/KillaMaaki) - Unity integration, C# implementation.
 
-Thank you for your contributions to netcode.io!
+Thanks for your contributions to netcode.io!
 
 # Author
 
 The author of this library is [Glenn Fiedler](https://www.linkedin.com/in/glennfiedler), a recognized expert in the field of game network programming with over 15 years experience in the game industry.
 
-Glenn wrote an article series about the development of this library called [Building a Game Network Protocol](http://gafferongames.com/2016/05/10/building-a-game-network-protocol/).
+Glenn wrote an article series about the development of this library called [Building a Game Network Protocol](https://gafferongames.com/categories/building-a-game-network-protocol).
 
 Open source libraries by the same author include: [yojimbo](http://libyojimbo.com) and [reliable.io](https://github.com/networkprotocol/reliable.io)
 
